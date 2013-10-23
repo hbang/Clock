@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFE3F7131817F722008E1D38 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE3F7121817F722008E1D38 /* Cocoa.framework */; };
+		CFE3F71D1817F722008E1D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFE3F71B1817F722008E1D38 /* InfoPlist.strings */; };
+		CFE3F71F1817F722008E1D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE3F71E1817F722008E1D38 /* main.m */; };
+		CFE3F7261817F722008E1D38 /* HBCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE3F7251817F722008E1D38 /* HBCLAppDelegate.m */; };
+		CFE3F7291817F722008E1D38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE3F7271817F722008E1D38 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFE3F70F1817F722008E1D38 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE3F7121817F722008E1D38 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CFE3F7151817F722008E1D38 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CFE3F7161817F722008E1D38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFE3F7171817F722008E1D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFE3F71A1817F722008E1D38 /* Clock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clock-Info.plist"; sourceTree = "<group>"; };
+		CFE3F71C1817F722008E1D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFE3F71E1817F722008E1D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFE3F7201817F722008E1D38 /* Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clock-Prefix.pch"; sourceTree = "<group>"; };
+		CFE3F7241817F722008E1D38 /* HBCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBCLAppDelegate.h; sourceTree = "<group>"; };
+		CFE3F7251817F722008E1D38 /* HBCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBCLAppDelegate.m; sourceTree = "<group>"; };
+		CFE3F7281817F722008E1D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE3F70C1817F722008E1D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE3F7131817F722008E1D38 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE3F7061817F722008E1D38 = {
+			isa = PBXGroup;
+			children = (
+				CFE3F7181817F722008E1D38 /* Clock */,
+				CFE3F7111817F722008E1D38 /* Frameworks */,
+				CFE3F7101817F722008E1D38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE3F7101817F722008E1D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE3F70F1817F722008E1D38 /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE3F7111817F722008E1D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE3F7121817F722008E1D38 /* Cocoa.framework */,
+				CFE3F7141817F722008E1D38 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFE3F7141817F722008E1D38 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE3F7151817F722008E1D38 /* AppKit.framework */,
+				CFE3F7161817F722008E1D38 /* CoreData.framework */,
+				CFE3F7171817F722008E1D38 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CFE3F7181817F722008E1D38 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				CFE3F7241817F722008E1D38 /* HBCLAppDelegate.h */,
+				CFE3F7251817F722008E1D38 /* HBCLAppDelegate.m */,
+				CFE3F7271817F722008E1D38 /* MainMenu.xib */,
+				CFE3F7191817F722008E1D38 /* Supporting Files */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		CFE3F7191817F722008E1D38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFE3F71A1817F722008E1D38 /* Clock-Info.plist */,
+				CFE3F71B1817F722008E1D38 /* InfoPlist.strings */,
+				CFE3F71E1817F722008E1D38 /* main.m */,
+				CFE3F7201817F722008E1D38 /* Clock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE3F70E1817F722008E1D38 /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE3F7401817F723008E1D38 /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				CFE3F70B1817F722008E1D38 /* Sources */,
+				CFE3F70C1817F722008E1D38 /* Frameworks */,
+				CFE3F70D1817F722008E1D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = CFE3F70F1817F722008E1D38 /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE3F7071817F722008E1D38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HBCL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "HASHBANG Productions";
+			};
+			buildConfigurationList = CFE3F70A1817F722008E1D38 /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE3F7061817F722008E1D38;
+			productRefGroup = CFE3F7101817F722008E1D38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE3F70E1817F722008E1D38 /* Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE3F70D1817F722008E1D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE3F71D1817F722008E1D38 /* InfoPlist.strings in Resources */,
+				CFE3F7291817F722008E1D38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE3F70B1817F722008E1D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE3F71F1817F722008E1D38 /* main.m in Sources */,
+				CFE3F7261817F722008E1D38 /* HBCLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFE3F71B1817F722008E1D38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE3F71C1817F722008E1D38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFE3F7271817F722008E1D38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE3F7281817F722008E1D38 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFE3F73E1817F723008E1D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFE3F73F1817F723008E1D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFE3F7411817F723008E1D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFE3F7421817F723008E1D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE3F70A1817F722008E1D38 /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE3F73E1817F723008E1D38 /* Debug */,
+				CFE3F73F1817F723008E1D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE3F7401817F723008E1D38 /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE3F7411817F723008E1D38 /* Debug */,
+				CFE3F7421817F723008E1D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE3F7071817F722008E1D38 /* Project object */;
+}
